@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: url(imji\ copy.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 40%;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid white;
+  gap: 6rem;
+  width: 80w;
+  overflow-x: hidden;
+  background-color: #f2ffe9;
+  margin-top: 150px;
+}
+
+.for-image {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.h1-p {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  border: 3px solid #a6cf98;
+  border-radius: 20px;
+  padding-bottom: 20px;
+}
+
+.h1-p h1 {
+  text-align: center;
+  color: #fa7070;
+}
+
+.h1-p p {
+  font-size: 28px;
+  color: #557c55;
+}
+
+h2 {
+  transform: translateY(230px);
+}
+
+.button {
+  display: inline-block;
+  border: 2px solid #3498db;
+  color: #557c55;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  transform: translateY(250px);
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #a6cf98;
+  color: #fa7070;
+}
+
+.h2-a {
+  text-align: center;
+}
